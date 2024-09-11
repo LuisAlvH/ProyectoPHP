@@ -1,6 +1,6 @@
 
 integrantes:
 
-lucia pamela moya 
+lucia pamela moya: lucia.moya@davinci.edu.ar
 gonzalo lopez
 luis alvaro hinostroza
