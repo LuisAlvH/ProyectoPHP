@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amigos son los amigos</title>
+  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/3394cb8eb8.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="cs/style.css">
+</head>
+
+<body>
+
+
+  <div class="wrapper">
+    <aside id="sidebar" class="bg-dark">
+      <div class="d-flex">
+        <button class="toggle-btn" type="button">
+          <i class="lni lni-grid-alt"></i>
+        </button>
+
+      </div>
+      <ul class="sidebar-nav my-5">
+
+        <li class="sidebar-item my-4">
+          <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" data-bs-target="#auth"
+            aria-expanded="false" aria-controls="auth">
+            <i class="fas fa-user-tag client-icon"></i>
+            <span>Usuarios</span>
+          </a>
+          <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">Alta usuario</a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">Ver usuarios</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="sidebar-item my-4">
+          <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" data-bs-target="#multi"
+            aria-expanded="false" aria-controls="multi">
+            <i class="fas fa-user-tie employee-icon"></i>
+            <span>Empleados</span>
+          </a>
+          <ul id="multi" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">Alta empleado</a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">Ver empleados</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="sidebar-item my-4">
+          <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" data-bs-target="#multi2"
+            aria-expanded="false" aria-controls="multi2">
+            <i class="fas fa-file-alt report-icon"></i>
+            <span>Reportes</span>
+          </a>
+          <ul id="multi2" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">Reportes mascotas</a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">Reportes clientes</a>
+            </li>
+            <li class="sidebar-item"></li>
+              <a href="#" class="sidebar-link">Reportes empleados</a>
+            </li>
+            <li class="sidebar-item"></li>
+            <a href="#" class="sidebar-link">Reportes servicios</a>
+          </li>
+          </ul>
+        </li>
+        <li class="sidebar-item my-5">
+          <a href="PerfilEmpleado.html" class="sidebar-link">
+            <i class="fa-solid fa-user"></i>
+            <span>Mi cuenta</span>
+          </a>
+        </li>
+
+      </ul>
+      <div class="sidebar-footer">
+        <a href="#" class="sidebar-link">
+          <i class="lni lni-exit"></i>
+          <span>Logout</span>
+        </a>
+      </div>
+    </aside>
+
+
+    <div class="container main p-3">
+
+      <div class="row">
+
+        <div class="row">
+
+          <div class="col-12 d-flex justify-content-end my-3">
+
+            <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+
+              <ul class="navbar-nav flex-row align-items-center ms-auto">
+                <li class="nav-item lh-1 me-4">
+                  <h2 class="fw-bold text-secondary mb-0">¡Bienvenido, Santiago!</h2>
+                </li>
+
+
+
+
+
+                <li>
+
+                  <a class="nav-link dropdown-toggle hide-arrow p-0" href="javascript:void(0);"
+                    data-bs-toggle="dropdown">
+                    <div>
+                      <img src="img/administrador.jpg" alt=" " class="rounded-circle imagen_usser">
+                    </div>
+                  </a>
+
+                  <ul class="dropdown-menu ">
+                    <li>
+
+                      <div class="d-flex">
+                        <div class="flex-grow-1 text-center">
+                          <h6>Santiago</h6>
+                          <small class=" text-muted">Administrador</small>
+                        </div>
+                      </div>
+
+                    </li>
+                    <li>
+                      <div class="dropdown-divider my-1"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <i class="bx bx-user bx-md me-3"></i><span>MI PERFIL</span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown-divider my-1"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"> <i class="bx bx-cog bx-md me-3"></i><span>CONFIGURACION</span>
+                      </a>
+                    </li>
+
+                    <li>
+                      <div class="dropdown-divider my-1"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="javascript:void(0);">
+                        <i class="bx bx-power-off bx-md me-3"></i><span>Logout</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row my-5">
+        <div class="col-lg-12 col-sm-6  col-xs-12">
+
+
+          <div id="carouselExampleFade" class="carousel slide carousel-fade ">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/adm_1.jpg"
+                  class="d-block w-100 imagenes_contacto_grandes shadow p-3 mb-5 bg-body-tertiary rounded "
+                  alt="Sucursal de starbucks, empleado trabajando" width="1000" height="600">
+              </div>
+              <div class="carousel-item">
+                <img src="img/adm_2.jpg"
+                  class="d-block w-100 imagenes_contacto_grandes shadow p-3 mb-5 bg-body-tertiary rounded "
+                  alt="Sucursal de starbucks, servicio de cafe , para automoviles" width="1000" height="600">
+              </div>
+              <div class="carousel-item">
+                <img src="img/adm_3.jpg"
+                  class="d-block w-100 imagenes_contacto_grandes shadow p-3 mb-5 bg-body-tertiary rounded"
+                  alt="clientes usando computadoras, b" width="1000" height="600">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+
+      
+
+
+
+
+    </div>
+
+  </div>
+
+
+
+
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
