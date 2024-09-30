@@ -72,19 +72,19 @@
               <a href="#" class="sidebar-link">Reportes clientes</a>
             </li>
             <li class="sidebar-item"></li>
-              <a href="#" class="sidebar-link">Reportes empleados</a>
-            </li>
-            <li class="sidebar-item"></li>
-            <a href="#" class="sidebar-link">Reportes servicios</a>
-          </li>
-          </ul>
+            <a href="#" class="sidebar-link">Reportes empleados</a>
         </li>
-        <li class="sidebar-item my-5">
-          <a href="PerfilEmpleado.html" class="sidebar-link">
-            <i class="fa-solid fa-user"></i>
-            <span>Mi cuenta</span>
-          </a>
+        <li class="sidebar-item"></li>
+        <a href="#" class="sidebar-link">Reportes servicios</a>
         </li>
+      </ul>
+      </li>
+      <li class="sidebar-item my-5">
+        <a href="PerfilEmpleado.html" class="sidebar-link">
+          <i class="fa-solid fa-user"></i>
+          <span>Mi cuenta</span>
+        </a>
+      </li>
 
       </ul>
       <div class="sidebar-footer">
@@ -169,64 +169,48 @@
       </div>
 
 
-      <div class="row my-5">
 
-        <div class="col-12 d-flex justify-content-center my-5 rounded-5  p-5 ">
+      <div class="container my-5">
 
-            <form class="for_registro_mascota">
+        <div class="row justify-content-center">
 
-                <div>
-                  <h2 >REGISTRO DE EMPLEADOS </h2>
-      
-                  <label for="nombre" class="form-label my-3">Nombre</label>
+          <div class="col-md-8 col-lg-6 d-flex justify-content-center rounded-5 bg-light p-5 shadow-lg">
 
-                  <input type="text" class="form-control" id="Nombre" placeholder="Nombre...">
+            <form class="w-100">
 
-                  <label for="apellido" class="form-label my-3">Apellido</label>
+              <h2 class="text-center">Editar Perfil</h2>
 
-                  <input type="text" class="form-control" id="Apellido" placeholder="Apellido...">
+              <div class="form-group mt-4">
+                <label for="name" class="form-label">Nombre y apellido</label>
+                <input type="text" id="name" class="form-control my-1" placeholder="nombre y apellido..">
+              </div>
 
-                  <label for="dni" class="form-label my-3">Dni</label>
+              <div class="form-group mt-4">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" id="email" class="form-control my-1" placeholder="e-mail..">
+              </div>
 
-                  <input type="text" class="form-control" id="Raza" placeholder="Dni...">
+              <div class="form-group mt-4">
+                <label for="phone" class="form-label">Telefono</label>
+                <input type="text" id="phone" class="form-control my-1" placeholder="telefono..">
+              </div>
 
-                  <label for="telefono" class="form-label my-3">telefono</label>
+              <div class="form-group mt-4">
+                <label for="address" class="form-label">Direccion</label>
+                <input type="text" id="address" class="form-control my-1" placeholder="direccion..">
+              </div>
 
-                  <input type="text" class="form-control" id="telefono" placeholder="Telefono...">
+              <div class="d-grid gap-2 col-6 mx-auto mt-5">
+                <button class="btn btn-dark bg-dark" type="button">MODIFICAR DATOS</button>
+                <button class="btn btn-dark bg-dark" type="button">CAMBIAR CONTRASEÑA</button>
+              </div>
 
-                  <label for="email" class="form-label my-3">E-mail</label>
-
-                  <input type="text" class="form-control" id="email" placeholder="E-mail...">
-
-                  <label for="Domicilio" class="form-label my-3">Domicilio</label>
-                  <input type="text" class="form-control" id="domicilio" placeholder="Domicilio...">
-                  <label for="cargo" class="form-label my-3">Cargo</label>
-                  <div class="d-flex justify-content-center ">
-                    <select class="w-100">
-                      <option value="" selected disabled>Selecciones una opcion..</option>
-                      <option >Vendedor</option>
-                      <option >Veterinario</option>
-                    </select>
-    
-                  </div>
-                  <label for="fechaC" class="form-label my-3">Fecha de contratacion</label>
-                  <input type="date" class="form-control" id="fechaC" placeholder="fecha de contratacion...">
-
-                </div>
-                 
-                  <div class="d-grid gap-2 col-6 mx-auto my-3">
-                    <button class="btn btn-light bg-dark" type="button">Añadir empleado</button>
-      
-                  </div>
-      
-      
-              </form>
-
-
-
+            </form>
+          </div>
 
         </div>
 
+      </div>
 
 
 
@@ -234,9 +218,11 @@
 
 
 
-    </div>
 
-      
+
+
+
+
 
 
 
