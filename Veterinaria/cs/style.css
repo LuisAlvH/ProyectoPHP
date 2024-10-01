@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 ::after,
 ::before {
@@ -266,7 +266,7 @@ a.sidebar-link:hover{
 }
 
 .fondo {
-    background-image: url('../img/cliente_3.jpg');
+    background-image: url('../img/fondo_gestor.jpeg');
 
     background-size: cover; 
     background-position: center; 
@@ -274,13 +274,18 @@ a.sidebar-link:hover{
 }
 
 .titulo_gestor{
-    letter-spacing: 10px; 
+    font-weight: 700;
+    font-size: 3rem;
+    color: #CC5500;
+    
 }
 .titulo_gestor2{
-    letter-spacing: 10px; 
-    color: rgb(80, 219, 243);
+    font-weight: 500; 
+    color: #003366;
+   
     
 }
 .titulo_gestor3{
     letter-spacing: 5px; 
+    color: #666666;
 }
