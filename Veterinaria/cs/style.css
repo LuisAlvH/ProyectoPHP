@@ -227,4 +227,60 @@ a.sidebar-link:hover{
 .imagen_estadistica{
     width: 1000px;
     height: 500px;
+
+}
+
+.color_inicioSesion_bton{
+    background-color: rgb(194, 149, 91);
+    border: none;
+    
+}
+.color_inicioSesion_bton:hover{
+
+    background-color: rgb(255, 127, 80);
+    color: white;
+
+}
+.btn.color_inicioSesion_bton:active {
+    background-color:  rgb(255, 127, 80); 
+    color: rgb(241, 237, 237); 
+}
+
+.btn-custom:focus {
+    outline: none; 
+}
+.color_registrate_ahora{
+    color:rgb(194, 149, 91) ;
+}
+
+
+.form-control:focus {
+    border-color: rgb(145, 146, 144); 
+    box-shadow: none; 
+}
+.form-control {
+    transition: border-color 0.3s; 
+}
+.form_login{
+    width: 23rem;
+}
+
+.fondo {
+    background-image: url('../img/cliente_3.jpg');
+
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+}
+
+.titulo_gestor{
+    letter-spacing: 10px; 
+}
+.titulo_gestor2{
+    letter-spacing: 10px; 
+    color: rgb(80, 219, 243);
+    
+}
+.titulo_gestor3{
+    letter-spacing: 5px; 
 }
