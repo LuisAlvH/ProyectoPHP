@@ -109,14 +109,19 @@ a.sidebar-link:hover{
 .btn {
     background-color:  #03e2d7; 
     color: white; 
-   
+   border: none;
 }
 
 
-.btn:hover {
+.btn:hover{
+    background-color: rgb(157, 170, 170);
+    border: none;
+    color: rgb(12, 12, 12); 
+}
+
+.btn.botones_clientes:active{
     background-color: #03e2d7; 
-    color: white; 
-    color: black; 
+    color:white; 
 }
 
 .btn-released {
@@ -288,4 +293,50 @@ a.sidebar-link:hover{
 .titulo_gestor3{
     letter-spacing: 5px; 
     color: #666666;
+}
+.color_inicioSesion_bton:hover{
+
+    background-color: rgb(255, 127, 80);
+    color: white;
+
+}
+.hover_drop_cliente:hover{
+    background-color: rgb(255,193,7);
+    color: white;
+}
+
+.hover_drop_admi:hover{
+    background-color: rgb(108,117,125);
+    color: white;
+}
+
+.btn.botones_admin{
+    background-color:rgb(33,37,41);
+    border: none;
+    
+}
+.botones_admin:hover{
+
+    background-color: rgb(157, 170, 170);
+    color: rgb(12, 12, 12);
+
+}
+.btn.botones_admin:active {
+    background-color:rgb(33,37,41);
+    color: rgb(252, 250, 250); 
+}
+.btn.botones_emple{
+    background-color:rgb(220,53,69);
+    border: none;
+    
+}
+.botones_emple:hover{
+    background-color: rgb(157, 170, 170);
+    border: none;
+    color: rgb(12, 12, 12);
+    
+}
+.btn.botones_emple:active {
+    background-color:rgb(220,53,69);
+    color: rgb(252, 250, 250); 
 }
